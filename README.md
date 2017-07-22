@@ -6,6 +6,14 @@ Distributed Computing  group project
 / Make a TCP program that implements Birman-Schiper-Stephenson
 / protocol to pass messages.
 **************************************************************/
+
+/**************************************************************
+*  TODO:
+* TCP p2p with Multi-thread connections
+* Implements Birman-Shiper-Stephenson BSS Protocol
+* Randomly passes data to other messages 50% probability per second.
+***************************************************************/
+
 /**************************************************************
 *  Requirements List:
 * TCP Program
