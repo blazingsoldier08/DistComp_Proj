@@ -30,7 +30,7 @@ namespace DistComp_Proj.Components
 
         #endregion
 
-        #region
+        #region LogInputs
 
         public static void LogMessage(string bssClock, string message)
         {

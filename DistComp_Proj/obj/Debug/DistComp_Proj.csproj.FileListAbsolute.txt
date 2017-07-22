@@ -4,3 +4,9 @@ D:\VS2015\Projects\DistComp_Proj\DistComp_Proj\bin\Debug\DistComp_Proj.pdb
 D:\VS2015\Projects\DistComp_Proj\DistComp_Proj\obj\Debug\DistComp_Proj.csprojResolveAssemblyReference.cache
 D:\VS2015\Projects\DistComp_Proj\DistComp_Proj\obj\Debug\DistComp_Proj.exe
 D:\VS2015\Projects\DistComp_Proj\DistComp_Proj\obj\Debug\DistComp_Proj.pdb
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\bin\Debug\DistComp_Proj.exe.config
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\obj\Debug\DistComp_Proj.exe
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\obj\Debug\DistComp_Proj.pdb
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\bin\Debug\DistComp_Proj.exe
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\bin\Debug\DistComp_Proj.pdb
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\obj\Debug\DistComp_Proj.csprojResolveAssemblyReference.cache

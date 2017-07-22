@@ -4,3 +4,12 @@
 7/22/2017 1:16:14 AM
  	 Clock Value: 1, 2, 3 
  	 Message: test message
+7/22/2017 1:38:00 AM
+ 	 Clock Value: 1, 2, 3 
+ 	 Message: test message
+7/22/2017 6:21:01 AM
+ 	 Clock Value: 1, 2, 3 
+ 	 Message: test message
+7/22/2017 6:21:52 AM
+ 	 Clock Value: 1, 2, 3 
+ 	 Message: test message
