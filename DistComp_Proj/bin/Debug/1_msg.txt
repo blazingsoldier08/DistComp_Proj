@@ -1,0 +1,6 @@
+7/22/2017 1:15:01 AM
+ 	 Clock Value: 1, 2, 3 
+ 	 Message: 
+7/22/2017 1:16:14 AM
+ 	 Clock Value: 1, 2, 3 
+ 	 Message: test message
