@@ -9,6 +9,18 @@ namespace DistComp_Proj.Components
 {
     public class TextFileReader
     {
+        /// <summary>
+        /// Everything is static so you don't have to instantiate the object
+        /// 
+        /// Assign the processID to TextFileReader.processID
+        /// Next call the function TextFileReader.FindIPFromFile()
+        /// 
+        /// Allows you to call the string attributes: 
+        /// TextFileReader.processID
+        /// TextFileReader.localIP
+        /// TextFileReader.localPortNum
+        /// </summary>
+
         #region SetAttributes
 
         private static string _processID = null;

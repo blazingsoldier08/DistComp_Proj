@@ -24,6 +24,7 @@ namespace DistComp_Proj
         {
             TextFileReader.processID = args[0];
             Logger.processID = args[0];
+            TextFileReader.FindIPFromFile();
         }
 
         public static void TestPathing()
