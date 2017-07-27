@@ -18,6 +18,7 @@ namespace DistComp_Proj
 
             //TestPathing();
 
+
         }
 
         public static void InitializeComponents(string[] args)
@@ -25,6 +26,8 @@ namespace DistComp_Proj
             TextFileReader.processID = args[0];
             Logger.processID = args[0];
             TextFileReader.FindIPFromFile();
+            ConnectionThreader c = new ConnectionThreader(int.Parse(TextFileReader.processID), TextFileReader.dict);
+            c.ConnectProcesses();
         }
 
         public static void TestPathing()
@@ -38,9 +41,13 @@ namespace DistComp_Proj
         public static void TestFileReading()
         {
             TextFileReader.FindIPFromFile();
-            Console.WriteLine(TextFileReader.processID);
-            Console.WriteLine(TextFileReader.localIP);
-            Console.WriteLine(TextFileReader.localPortNum);
+            Console.WriteLine("Local Process ID: " + TextFileReader.processID);
+            Console.WriteLine("Local IP Address: " + TextFileReader.localIP);
+            Console.WriteLine("Local Port Number: " + TextFileReader.localPortNum);
+            foreach(var x in TextFileReader.dict)
+            {
+                Console.WriteLine("Process ID: " + x.Key.ToString() + " IP Address: " + x.Value.ipAddress + "  Port Number: " + x.Value.portNumber);
+            }
             Console.ReadLine();
         }
     }

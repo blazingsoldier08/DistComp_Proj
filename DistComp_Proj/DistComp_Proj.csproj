@@ -46,6 +46,7 @@
     <Compile Include="Components\BSSAlgorithm.cs" />
     <Compile Include="Components\ConnectionThreader.cs" />
     <Compile Include="Components\Logger.cs" />
+    <Compile Include="Components\ProcessInfo.cs" />
     <Compile Include="Components\TextFileReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,0 +1,5 @@
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\bin\Release\DistComp_Proj.exe.config
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\bin\Release\DistComp_Proj.exe
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\bin\Release\DistComp_Proj.pdb
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\obj\Release\DistComp_Proj.exe
+C:\Users\hecti\Source\Repos\DistComp_Proj\DistComp_Proj\obj\Release\DistComp_Proj.pdb

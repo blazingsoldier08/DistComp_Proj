@@ -39,6 +39,14 @@ namespace DistComp_Proj.Components
             get { return sr; }
             set { sr = value; }
         }
+        
+
+        private static Dictionary<int, ProcessInfo> _dict = null;
+        public static Dictionary<int, ProcessInfo> dict
+        {
+            get { return _dict; }
+            set { _dict = value; }
+        }
 
         #endregion
 
@@ -73,6 +81,7 @@ namespace DistComp_Proj.Components
         {
             using (StreamReader = File.OpenText(path))
             {
+                dict = new Dictionary<int, ProcessInfo>();
                 while(!StreamReader.EndOfStream)
                 {
                     currentLine = StreamReader.ReadLine();
@@ -86,7 +95,23 @@ namespace DistComp_Proj.Components
                         localIP = currentLine.Substring(processIDEndIndex + 1, endOfIPIndex);
                         // +2 accounts for the tab characters
                         localPortNum = currentLine.Substring(processIDEndIndex + endOfIPIndex + 2);
-
+                        dict.Add(int.Parse(processID), new ProcessInfo() { portNumber = localPortNum, ipAddress = localIP });
+                    }
+                    else
+                    {
+                        int processIDEndIndex;
+                        int endOfIPIndex;
+                        string procID;
+                        string portNum;
+                        string ipAddr;
+                        processIDEndIndex = currentLine.IndexOf("\t");
+                        procID = currentLine.Substring(0, processIDEndIndex);
+                        // +1 accounts for the first tab character i.e. find the tab then start at the next character.
+                        endOfIPIndex = currentLine.Substring((processIDEndIndex + 1)).IndexOf("\t");
+                        ipAddr = currentLine.Substring(processIDEndIndex + 1, endOfIPIndex);
+                        // +2 accounts for the tab characters
+                        portNum = currentLine.Substring(processIDEndIndex + endOfIPIndex + 2);
+                        dict.Add(int.Parse(procID), new ProcessInfo() { portNumber = portNum, ipAddress = ipAddr });
                     }
                 }
                 
